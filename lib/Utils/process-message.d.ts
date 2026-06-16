@@ -69,7 +69,7 @@ export function getChatId({ remoteJid, participant, fromMe }: {
     fromMe: any;
 }): any;
 export default processMessage;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 declare function processMessage(message: any, { shouldProcessHistoryMsg, placeholderResendCache, ev, creds, signalRepository, keyStore, logger, options, getMessage }: {
     shouldProcessHistoryMsg: any;
     placeholderResendCache: any;

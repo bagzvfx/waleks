@@ -7,14 +7,14 @@ export function decodeMessageNode(stanza: any, meId: any, meLid: any): {
         key: {
             server_id?: any;
             remoteJid: any;
-            remoteJidAlt: any;
-            remoteJidUsername: any;
             fromMe: boolean;
             id: any;
             participant: any;
-            participantAlt: any;
-            participantUsername: any;
+            isSender: any;
+            isLid: any;
+            username: any;
             addressingMode: any;
+            adressingMode: any;
         };
         category: any;
         messageTimestamp: number;
@@ -63,14 +63,14 @@ export function decryptMessageNode(stanza: any, meId: any, meLid: any, repositor
         key: {
             server_id?: any;
             remoteJid: any;
-            remoteJidAlt: any;
-            remoteJidUsername: any;
             fromMe: boolean;
             id: any;
             participant: any;
-            participantAlt: any;
-            participantUsername: any;
+            isSender: any;
+            isLid: any;
+            username: any;
             addressingMode: any;
+            adressingMode: any;
         };
         category: any;
         messageTimestamp: number;

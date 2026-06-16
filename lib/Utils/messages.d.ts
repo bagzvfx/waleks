@@ -42,5 +42,5 @@ export function aggregateMessageKeysNotFromMe(keys: any): any[];
 export function downloadMediaMessage(message: any, type: any, options: any, ctx: any): Promise<any>;
 export function assertMediaContent(content: any): any;
 export function shouldIncludeBizBinaryNode(message: any): boolean;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=messages.d.ts.map

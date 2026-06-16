@@ -326,5 +326,5 @@ export function makeMessagesSocket(config: any): {
     fetchNewChatMessageCap: () => Promise<any>;
 };
 import { MessageRetryManager } from '../Utils/index.js';
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=messages-send.d.ts.map

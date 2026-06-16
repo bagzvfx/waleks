@@ -330,5 +330,5 @@ export function makeMessagesRecvSocket(config: any): {
     }>;
     fetchNewChatMessageCap: () => Promise<any>;
 };
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=messages-recv.d.ts.map

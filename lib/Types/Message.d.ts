@@ -8,5 +8,5 @@ export const ProtocolType: typeof proto.Message.ProtocolMessage.Type;
 export const WAMessageStubType: typeof proto.WebMessageInfo.StubType;
 export const WAMessageStatus: typeof proto.WebMessageInfo.Status;
 export const WAMessageAddressingMode: any;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=Message.d.ts.map

@@ -40,5 +40,5 @@ export function configureSuccessfulPairing(stanza: any, { advSecretKey, signedId
     };
 };
 export function encodeSignedDeviceIdentity(account: any, includeSignatureKey: any): any;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=validate-connection.d.ts.map

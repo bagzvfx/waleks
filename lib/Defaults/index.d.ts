@@ -138,7 +138,7 @@ export namespace TimeMs {
     let Day: number;
     let Week: number;
 }
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 declare const version: number[];
 import { makeLibSignalRepository } from '../Signal/libsignal.js';
 export {};

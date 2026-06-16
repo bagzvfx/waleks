@@ -133,5 +133,5 @@ export function decryptMediaRetryData({ ciphertext, iv }: {
     iv: any;
 }, mediaKey: any, msgId: any): proto.MediaRetryNotification;
 export function getStatusCodeForMediaRetry(code: any): any;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=messages-media.d.ts.map

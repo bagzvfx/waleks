@@ -558,5 +558,5 @@ export function extractCommunityMetadata(result: any): {
     ephemeralDuration: number | undefined;
     addressingMode: any;
 };
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=communities.d.ts.map

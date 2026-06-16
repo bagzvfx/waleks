@@ -72,5 +72,5 @@ export function downloadAndProcessHistorySyncNotification(msg: any, options: any
     progress: any;
 }>;
 export function getHistoryMsg(message: any): any;
-import { proto } from '../../WAProto/index.js';
+import { proto } from '../Core/index.js';
 //# sourceMappingURL=history.d.ts.map
